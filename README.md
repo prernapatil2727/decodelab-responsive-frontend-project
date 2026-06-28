@@ -47,26 +47,6 @@ This project was created as part of my **DecodeLabs Full stack Development Inter
 
 ---
 
-## 📸 Project Preview
-
-### 🏠 Home Page
-
-![Home](assets/screenshots/home.png)
-
-### 💻 Career Section
-
-![Careers](assets/screenshots/careers.png)
-
-### 🛣️ Roadmaps
-
-![Roadmaps](assets/screenshots/roadmaps.png)
-
-### 📞 Contact
-
-![Contact](assets/screenshots/contact.png)
-
----
-
 ## 📂 Project Structure
 
 ```text
