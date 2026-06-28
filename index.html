@@ -1,0 +1,615 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerPilot AI</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Loading Screen -->
+<div id="loader">
+    <div class="loader-content">
+        <h1>🚀 CareerPilot AI</h1>
+        <p>Loading...</p>
+    </div>
+</div>
+
+<!-- Back to Top -->
+<button id="topBtn">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<!-- Header -->
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+🚀 CareerPilot AI
+</div>
+
+<div class="menu-toggle" id="menu-toggle">
+<i class="fa-solid fa-bars"></i>
+</div>
+
+<ul class="nav-links" id="nav-links">
+
+<li><a href="#">Home</a></li>
+
+<li><a href="#careers">Careers</a></li>
+
+<li><a href="#roadmaps">Roadmaps</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+<li>
+<button id="themeBtn">
+🌙
+</button>
+</li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<main>
+
+<!-- Hero -->
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>
+
+<span id="typing"></span>
+
+</h1>
+
+<p>
+
+Discover career paths, salaries, learning roadmaps and AI-powered guidance to achieve your dream job.
+
+</p>
+
+<div class="hero-buttons">
+
+<button class="primary-btn">
+
+Get Started
+
+</button>
+
+<button class="secondary-btn">
+
+Explore Careers
+
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Careers -->
+
+<section id="careers" class="careers">
+
+<h2>
+
+Explore Career Paths
+
+</h2>
+
+<div class="search-box">
+
+<input
+type="text"
+id="searchInput"
+placeholder="Search Career...">
+
+</div>
+
+<div class="career-grid">
+
+<div class="career-card">
+
+<i class="fa-solid fa-code"></i>
+
+<h3>Full Stack Developer</h3>
+
+<p>
+
+Build responsive websites and powerful web applications.
+
+</p>
+
+<button>
+
+View Roadmap
+
+</button>
+
+</div>
+
+<div class="career-card">
+
+<i class="fa-solid fa-robot"></i>
+
+<h3>AI Engineer</h3>
+
+<p>
+
+Develop intelligent AI and Machine Learning applications.
+
+</p>
+
+<button>
+
+View Roadmap
+
+</button>
+
+</div>
+
+<div class="career-card">
+
+<i class="fa-solid fa-chart-line"></i>
+
+<h3>Data Scientist</h3>
+
+<p>
+
+Analyze business data using Python and statistics.
+
+</p>
+
+<button>
+
+View Roadmap
+
+</button>
+
+</div>
+
+<div class="career-card">
+
+<i class="fa-solid fa-shield-halved"></i>
+
+<h3>Cyber Security</h3>
+
+<p>
+
+Protect networks and systems against cyber threats.
+
+</p>
+
+<button>
+
+View Roadmap
+
+</button>
+
+</div>
+
+<div class="career-card">
+
+<i class="fa-solid fa-cloud"></i>
+
+<h3>Cloud Engineer</h3>
+
+<p>
+
+Deploy scalable applications on cloud platforms.
+
+</p>
+
+<button>
+
+View Roadmap
+
+</button>
+
+</div>
+
+<div class="career-card">
+
+<i class="fa-solid fa-pen-ruler"></i>
+
+<h3>UI/UX Designer</h3>
+
+<p>
+
+Design beautiful and user-friendly digital products.
+
+</p>
+
+<button>
+
+View Roadmap
+
+</button>
+
+</div>
+
+</div>
+
+</section>
+```
+```html
+<!-- Why Choose Us -->
+
+<section class="why-us">
+
+    <h2>Why Choose CareerPilot AI?</h2>
+
+    <div class="why-grid">
+
+        <div class="why-card">
+            <i class="fa-solid fa-brain"></i>
+            <h3>AI Guidance</h3>
+            <p>Receive smart career suggestions based on your interests and goals.</p>
+        </div>
+
+        <div class="why-card">
+            <i class="fa-solid fa-book-open"></i>
+            <h3>Learning Resources</h3>
+            <p>Access curated roadmaps, tutorials, and skill-building resources.</p>
+        </div>
+
+        <div class="why-card">
+            <i class="fa-solid fa-bullseye"></i>
+            <h3>Career Planning</h3>
+            <p>Track your journey from beginner to professional with clear milestones.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Statistics -->
+
+<section class="stats">
+
+    <div class="stat-card">
+        <h2 class="counter" data-target="50">0</h2>
+        <p>Career Paths</p>
+    </div>
+
+    <div class="stat-card">
+        <h2 class="counter" data-target="100">0</h2>
+        <p>Learning Resources</p>
+    </div>
+
+    <div class="stat-card">
+        <h2 class="counter" data-target="10000">0</h2>
+        <p>Students Inspired</p>
+    </div>
+
+    <div class="stat-card">
+        <h2 class="counter" data-target="95">0</h2>
+        <p>Success Rate %</p>
+    </div>
+
+</section>
+
+<!-- Roadmaps -->
+
+<section id="roadmaps" class="roadmaps">
+
+<h2>Career Roadmaps</h2>
+
+<div class="roadmap-grid">
+
+<div class="roadmap-card">
+
+<h3>💻 Full Stack Developer</h3>
+
+<ul>
+
+<li>HTML5</li>
+
+<li>CSS3</li>
+
+<li>JavaScript</li>
+
+<li>React.js</li>
+
+<li>Node.js</li>
+
+<li>Express.js</li>
+
+<li>MongoDB</li>
+
+<li>Git & GitHub</li>
+
+<li>Build Real Projects</li>
+
+</ul>
+
+</div>
+
+<div class="roadmap-card">
+
+<h3>🤖 AI Engineer</h3>
+
+<ul>
+
+<li>Python</li>
+
+<li>Statistics</li>
+
+<li>Machine Learning</li>
+
+<li>Deep Learning</li>
+
+<li>TensorFlow</li>
+
+<li>Natural Language Processing</li>
+
+<li>Generative AI</li>
+
+<li>Build AI Projects</li>
+
+</ul>
+
+</div>
+
+<div class="roadmap-card">
+
+<h3>📊 Data Scientist</h3>
+
+<ul>
+
+<li>Python</li>
+
+<li>Pandas</li>
+
+<li>NumPy</li>
+
+<li>SQL</li>
+
+<li>Power BI</li>
+
+<li>Data Visualization</li>
+
+<li>Machine Learning</li>
+
+<li>Portfolio Projects</li>
+
+</ul>
+
+</div>
+
+<div class="roadmap-card">
+
+<h3>🔒 Cyber Security</h3>
+
+<ul>
+
+<li>Networking Basics</li>
+
+<li>Linux</li>
+
+<li>Ethical Hacking</li>
+
+<li>Penetration Testing</li>
+
+<li>OWASP</li>
+
+<li>Security Tools</li>
+
+<li>Capture The Flag</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</section>
+```
+```html
+<!-- Salary Section -->
+
+<section class="salary-section">
+
+<h2>Average Salaries</h2>
+
+<div class="salary-grid">
+
+<div class="salary-card">
+<h3>💻 Full Stack Developer</h3>
+<p>₹6 - ₹15 LPA</p>
+</div>
+
+<div class="salary-card">
+<h3>🤖 AI Engineer</h3>
+<p>₹8 - ₹25 LPA</p>
+</div>
+
+<div class="salary-card">
+<h3>📊 Data Scientist</h3>
+<p>₹7 - ₹20 LPA</p>
+</div>
+
+<div class="salary-card">
+<h3>🔒 Cyber Security</h3>
+<p>₹6 - ₹18 LPA</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- Testimonials -->
+
+<section class="testimonials">
+
+<h2>What Students Say</h2>
+
+<div class="testimonial-grid">
+
+<div class="testimonial-card">
+<p>"CareerPilot AI helped me choose Full Stack Development and start learning."</p>
+<h4>- Priya</h4>
+</div>
+
+<div class="testimonial-card">
+<p>"The roadmaps are simple, interactive and beginner friendly."</p>
+<h4>- Rahul</h4>
+</div>
+
+<div class="testimonial-card">
+<p>"A perfect website for students exploring different careers."</p>
+<h4>- Anjali</h4>
+</div>
+
+</div>
+
+</section>
+
+<!-- FAQ -->
+
+<section class="faq">
+
+<h2>Frequently Asked Questions</h2>
+
+<details>
+<summary>Is CareerPilot AI free?</summary>
+<p>Yes. This website is completely free for students.</p>
+</details>
+
+<details>
+<summary>Can I explore multiple careers?</summary>
+<p>Yes. You can view different career paths and roadmaps.</p>
+</details>
+
+<details>
+<summary>Does this website provide AI guidance?</summary>
+<p>Yes. It is designed as an AI-powered career guidance platform.</p>
+</details>
+
+</section>
+
+<!-- Newsletter -->
+
+<section class="newsletter">
+
+<h2>Subscribe for Updates</h2>
+
+<p>Receive career tips directly in your inbox.</p>
+
+<form class="newsletter-form">
+
+<input
+type="email"
+placeholder="Enter your Email">
+
+<button>
+Subscribe
+</button>
+
+</form>
+
+</section>
+
+<!-- Contact -->
+
+<section id="contact" class="contact">
+
+<h2>Contact Us</h2>
+
+<form>
+
+<input
+type="text"
+placeholder="Your Name"
+required>
+
+<input
+type="email"
+placeholder="Your Email"
+required>
+
+<textarea
+placeholder="Your Message"
+rows="5"></textarea>
+
+<button type="submit">
+
+Send Message
+
+</button>
+
+</form>
+
+</section>
+
+</main>
+
+<!-- Footer -->
+
+<footer>
+
+<div class="footer-content">
+
+<h2>🚀 CareerPilot AI</h2>
+
+<p>
+Helping students discover their dream careers through AI-powered guidance.
+</p>
+
+<div class="footer-links">
+
+<a href="#">Home</a>
+
+<a href="#careers">Careers</a>
+
+<a href="#roadmaps">Roadmaps</a>
+
+<a href="#contact">Contact</a>
+
+</div>
+
+<div class="social-icons">
+
+<a href="https://github.com/prernapatil2727"><i class="fab fa-github"></i></a>
+
+<a href="https://www.linkedin.com/in/prerna-patil-1299702b4?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i class="fab fa-linkedin"></i></a>
+
+<a href="mailto:prernapatil701@gmail.com"><i class="fas fa-envelope"></i></a>
+
+</div>
+
+<p class="copyright">
+
+© 2026 CareerPilot AI | Designed & Developed by Prerna Patil
+
+</p>
+
+</div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+```
